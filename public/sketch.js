@@ -15,7 +15,7 @@ function setup() {
   createCanvas(600, 600);
   // Start a socket connection to the server
   // Some day we would run this server somewhere else
-  socket = io.connect('http://nodeservertest-nodeservertest.44fs.preview.openshiftapps.com:3000');
+  socket = io.connect('http://nodeservertest-nodeservertest.44fs.preview.openshiftapps.com:8000');
 
 
   blob = new Blob(random(width), random(height), random(8, 24));
